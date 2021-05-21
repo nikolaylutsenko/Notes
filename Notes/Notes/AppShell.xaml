@@ -29,5 +29,8 @@
         <ShellContent Title="About"
                       Icon="icon_about.png"
                       ContentTemplate="{DataTemplate views:AboutPage}" />
+        <ShellContent Title="Warning"
+                      Icon="caution.png"
+                      ContentTemplate="{DataTemplate views:WarningPage}"/>
     </TabBar>
 </Shell>
